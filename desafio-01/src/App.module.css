@@ -1,0 +1,118 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: -2.75rem;
+    padding: 1rem;
+}
+
+.form input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 8px;
+    width: 39.8rem;
+    height: 3.35rem;
+    background: #262626;
+    border: 1px solid #0D0D0D;
+    border-radius: 8px;
+    color: var(--gray-300);
+}
+
+.form button[type=submit] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 8px;
+    width: 6.5rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-weight: 700;
+    font-size: 0.87rem;
+}
+
+.form button[type=submit]:hover {
+    background: var(--blue-light);
+    cursor: pointer;
+
+}
+
+.todolistWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 46rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.header strong {
+    display: flex;
+    gap: 8px;
+    align-content: center;
+    align-items: baseline;
+}
+
+
+.colorBlue {
+    color: var(--blue-light);
+}
+
+.colorPurple {
+    color: var(--purple-light);
+}
+
+.styleCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.12rem 0.5rem;
+    width: 1.56rem;
+    height: 1.18rem;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 50%;
+    font-size: 0.75rem;
+
+}
+
+.styleCounterFinished {
+    display: flex;
+    order: 1;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0.12rem 0.5rem;
+    gap: 10px;
+    width: 4.26rem;
+    height: 1.18rem;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
+
+@media (max-width: 800px) {
+    .header{
+        display: flex;
+        width: 100%;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+}

@@ -1,0 +1,176 @@
+.todolistWrapper {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 4rem; */
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 46rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header strong {
+    display: flex;
+    gap: 8px;
+    align-content: center;
+    align-items: baseline;
+}
+
+
+.colorBlue {
+    color: var(--blue-light);
+}
+
+.colorPurple {
+    color: var(--purple-light);
+}
+
+.styleCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.12rem 0.5rem;
+    width: 1.56rem;
+    height: 1.18rem;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 50%;
+    font-size: 0.75rem;
+
+}
+
+.styleCounterFinished {
+    display: flex;
+    order: 1;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0.12rem 0.5rem;
+    gap: 10px;
+    width: 4.26rem;
+    height: 1.18rem;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
+
+
+.todoListContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    width: 46rem;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+
+}
+
+.todoWrapper input[type="checkbox"] {
+    display: flex;
+    margin-right: 0.75rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background: var(--gray-500);
+    border: 2px solid var(--blue-light);
+    border-radius: 50%;
+    pad: 0.45rem;
+    width: 1.15rem;
+    height: 1.15rem;
+    transition: border 0.2s, color 0.4s;
+}
+
+.todoWrapper input[type="checkbox"]:hover {
+    border: 2px solid var(--blue-dark);
+}
+
+.todoWrapper input[type="checkbox"]:checked {
+    border: 2px solid var(--purple-dark);
+    background: var(--purple-dark) url("../assets/checked.svg") center no-repeat;
+}
+
+.todoWrapper input[type="checkbox"]:checked:hover {
+    border: 2px solid var(--purple-light);
+}
+
+.todoWrapper span {
+    max-width: 39.5rem;
+    word-wrap: break-word;
+}
+
+
+.todoWrapper .infoTodo {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stringTextLine {
+    text-decoration: line-through
+}
+
+.infoTodo button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--gray-300);
+}
+
+.infoTodo button:hover {
+    cursor: pointer;
+    background: var(--gray-400);
+    color: var(--red-danger);
+    border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+    .contentWrapper {
+        display: flex;
+        width: 100%;
+    }
+
+    .todoListContentWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .todoWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+        background: var(--gray-500);
+        border: 1px solid var(--gray-400);
+        box-shadow: 0px 2px 8px rgb(0 0 0 / 6%);
+        border-radius: 8px;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    .todoWrapper span {
+        max-width: 15rem;
+        word-wrap: break-word;
+    }
+}
