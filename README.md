@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information">About</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 ## ✏ About
@@ -25,9 +25,9 @@ This project is the first hands-on challenge of the 2022 ignite react track by [
 
 [Figma](<https://www.figma.com/file/fijdfKlYGZ5uad1pbh9vOR/ToDo-List-(Copy)?node-id=0%3A1>)
 
-<img src="./desafio-01/src/assets/noResults.png" alt="TodoList empty" width="350" height="305"/> <img src="./desafio-01/src/assets/todolist.png" alt="TodoList" width="500"/>  
+<img src="./desafio-01/src/assets/noResults.png" alt="TodoList empty" width="300" height="305"/> <img src="./desafio-01/src/assets/todolist.png" alt="TodoList" width="500"/>  
 
-## 🛠 Technologies and Libs:
+## :technologies: 🛠 Technologies and Libs:
 
 the following technologies and libs:
 
