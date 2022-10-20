@@ -1,6 +1,5 @@
 import styles from './Header.module.css'
 import logoTipo from '../assets/rocket-logo.svg'
-import { Input } from './Input'
 
 export function Header() {
 
