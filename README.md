@@ -1,0 +1,39 @@
+<h1 align="center">
+    <img alt="IgniteReact" title="#IgniteReact" src="./assets/Capa.svg" />
+</h1>
+
+<h4 align="center"> 
+	🚀Ignite React  
+</h4>
+
+<p align="center">
+
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Wheyckson/React-TodoList.svg">  
+ 
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Wheyckson/React-TodoList.svg">
+
+</p>
+
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
+</p>
+
+## ✏ About
+
+This project is the first hands-on challenge of the 2022 ignite react track by [RocketSeat]. The project is a task control application(to-do list).
+
+[Figma](<https://www.figma.com/file/fijdfKlYGZ5uad1pbh9vOR/ToDo-List-(Copy)?node-id=0%3A1>)
+
+<img src="./assets/todolist.png" alt="TodoList" width="600"/> <img src="./assets/noResults.png" alt="TodoList empty" height="320"/>
+
+## 🛠 Technologies and Libs:
+
+the following technologies and libs:
+
+- [React]
+- [Typescript]
+- [CSS3]
+- [Phosphor Icons]
+
+Made with ♥ by Whey :wave: [Get in touch!](https://www.linkedin.com/in/wheyckson-lopes/)
