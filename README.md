@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="IgniteReact" title="#IgniteReact" src="./assets/Capa.svg" />
+    <img alt="IgniteReact" title="#IgniteReact" src="./desafio-01/src/assets/Capa.svg" width="1000" height="400"/>
 </h1>
 
 <h4 align="center"> 
@@ -25,7 +25,7 @@ This project is the first hands-on challenge of the 2022 ignite react track by [
 
 [Figma](<https://www.figma.com/file/fijdfKlYGZ5uad1pbh9vOR/ToDo-List-(Copy)?node-id=0%3A1>)
 
-<img src="./assets/todolist.png" alt="TodoList" width="600"/> <img src="./assets/noResults.png" alt="TodoList empty" height="320"/>
+<img src="./desafio-01/src/assets/todolist.png" alt="TodoList" width="600"/> <img src="./desafio-01/src/assets/noResults.png" alt="TodoList empty" width="405" height="365"/> 
 
 ## 🛠 Technologies and Libs:
 
