@@ -25,7 +25,7 @@ This project is the first hands-on challenge of the 2022 ignite react track by [
 
 [Figma](<https://www.figma.com/file/fijdfKlYGZ5uad1pbh9vOR/ToDo-List-(Copy)?node-id=0%3A1>)
 
-<img src="./desafio-01/src/assets/todolist.png" alt="TodoList" width="600"/> <img src="./desafio-01/src/assets/noResults.png" alt="TodoList empty" width="405" height="365"/> 
+<img src="./desafio-01/src/assets/todolist.png" alt="TodoList" width="500"/> <img src="./desafio-01/src/assets/noResults.png" alt="TodoList empty" width="350" height="305"/> 
 
 ## 🛠 Technologies and Libs:
 
