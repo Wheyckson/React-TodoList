@@ -27,7 +27,7 @@ This project is the first hands-on challenge of the 2022 ignite react track by [
 
 <img src="./desafio-01/src/assets/noResults.png" alt="TodoList empty" width="300" height="305"/> <img src="./desafio-01/src/assets/todolist.png" alt="TodoList" width="500"/>  
 
-## :technologies: 🛠 Technologies and Libs:
+## 🛠 Technologies and Libs:
 
 the following technologies and libs:
 
